@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">HelloWorld</string>
+
+    <string name="forget_password">Forget password?</string>
+    <string name="all_user">All users</string>
+    <string name="birth">Dob</string>
+    <string name="login">User management</string>
+    <string name="user_name">Usename</string>
+    <string name="pass_word">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="address">Address</string>
+    <string name="register">Register</string>
+    <string name="search_menu_title">Search</string>
+    <string name="sign_up">Sign up!</string>
+    <string name="user_info">User Infomation</string>
 </resources>

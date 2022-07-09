@@ -15,22 +15,22 @@ public class HomeActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.second_activity);
-        Intent i = getIntent();
-        TextView username = (TextView) findViewById(R.id.txt_username);
-        TextView password = (TextView) findViewById(R.id.txt_password);
-        username.setText(i.getStringExtra("user_name"));
-        password.setText(i.getStringExtra("password"));
-        Button btnConfirm = (Button) findViewById(R.id.btn_confirm);
-        btnConfirm.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent();
-                intent.putExtra("confirm", "Login success");
-                setResult(RESULT_OK, intent);
-                finish();
-            }
-        });
+        setContentView(R.layout.sign_up_activity);
+//        Intent i = getIntent();
+//        TextView username = (TextView) findViewById(R.id.txt_username);
+//        TextView password = (TextView) findViewById(R.id.txt_password);
+//        username.setText(i.getStringExtra("user_name"));
+//        password.setText(i.getStringExtra("password"));
+//        Button btnConfirm = (Button) findViewById(R.id.btn_confirm);
+//        btnConfirm.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent();
+//                intent.putExtra("confirm", "Login success");
+//                setResult(RESULT_OK, intent);
+//                finish();
+//            }
+//        });
 
     }
 }

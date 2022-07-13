@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/row_info">
+
+        <TextView
+            style="@style/label_style"
+            android:text="@string/user_name" />
+
+        <EditText
+            android:id="@+id/registerUserName"
+            style="@style/edit_regiter"
+            android:hint="phong.vh" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/row_info">
+
+        <TextView
+            style="@style/label_style"
+            android:text="@string/pass_word" />
+
+        <EditText
+            android:id="@+id/registerPassword"
+            style="@style/edit_regiter"
+            android:hint="abc@13579" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/row_info">
+
+        <TextView
+            style="@style/label_style"
+            android:text="@string/full_name" />
+
+        <EditText
+            android:id="@+id/registerFullName"
+            style="@style/edit_regiter"
+            android:hint="Vu Hong Phong" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/row_info">
+
+        <TextView
+            style="@style/label_style"
+            android:text="@string/birth" />
+
+        <EditText
+            android:id="@+id/registerDob"
+            style="@style/edit_regiter"
+            android:hint="20/03/1991" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/row_info">
+
+        <TextView
+            style="@style/label_style"
+            android:text="@string/phone_number" />
+
+        <EditText
+            android:id="@+id/registerPhone"
+            style="@style/edit_regiter"
+            android:hint="0375067620" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/row_info">
+
+        <TextView
+            style="@style/label_style"
+            android:text="@string/address" />
+
+        <EditText
+            android:id="@+id/registerAddress"
+            style="@style/edit_regiter"
+            android:hint="Hoang Mai, Ha Noi" />
+    </LinearLayout>
+
+</LinearLayout>

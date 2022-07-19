@@ -94,9 +94,9 @@ public class MainActivity extends Activity {
         Cursor cursor = getContentResolver().query(Contracts.CONTENT_URI, null, null, null, null);
         if (cursor != null) {
             while (cursor.moveToNext()) {
-                Log.i(TAG,
-                        "username: " + cursor.getString(cursor.getColumnIndex(Contracts.COLUMN_USERNAME)) +
-                                ",password: " + cursor.getString(cursor.getColumnIndex(Contracts.COLUMN_PASSWORD)));
+//                Log.i(TAG,
+//                        "username: " + cursor.getString(cursor.getColumnIndex(Contracts.COLUMN_USERNAME)) +
+//                                ",password: " + cursor.getString(cursor.getColumnIndex(Contracts.COLUMN_PASSWORD)));
             }
         }
     }

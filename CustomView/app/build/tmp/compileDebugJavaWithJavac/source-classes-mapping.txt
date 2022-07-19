@@ -1,0 +1,6 @@
+phongvh/approtrain/customview/MainActivity.java
+ phongvh.approtrain.customview.MainActivity
+phongvh/approtrain/customview/BuildConfig.java
+ phongvh.approtrain.customview.BuildConfig
+phongvh/approtrain/customview/CustomView.java
+ phongvh.approtrain.customview.CustomView

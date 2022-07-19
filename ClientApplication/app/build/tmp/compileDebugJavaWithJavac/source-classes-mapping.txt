@@ -1,0 +1,6 @@
+phongvh/approtrain/clientapplication/BuildConfig.java
+ phongvh.approtrain.clientapplication.BuildConfig
+phongvh/approtrain/clientapplication/Contracts.java
+ phongvh.approtrain.clientapplication.Contracts
+phongvh/approtrain/clientapplication/MainActivity.java
+ phongvh.approtrain.clientapplication.MainActivity

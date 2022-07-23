@@ -1,7 +1,6 @@
 package phongvh.approtrain.helloworld.activities;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -10,7 +9,10 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.ContextMenu;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -19,10 +21,13 @@ import android.widget.Button;
 import android.widget.CursorAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.PopupMenu;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -33,7 +38,8 @@ import phongvh.approtrain.helloworld.database.Contracts;
 import phongvh.approtrain.helloworld.database.DBHelper;
 import phongvh.approtrain.helloworld.modals.User;
 
-public class LoginActivity extends Activity implements View.OnClickListener, AdapterView.OnItemSelectedListener {
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener,
+        AdapterView.OnItemSelectedListener {
     public final int LOGIN_REQUEST = 1000;
     public final int SIGNUP_REQUEST = 2000;
     public final String TAG = LoginActivity.class.getSimpleName();
@@ -48,7 +54,7 @@ public class LoginActivity extends Activity implements View.OnClickListener, Ada
     private int mSpinnerOption = 0;
     private AlertDialog.Builder mBuilder;
     private EditText mLoginUserName, mLoginPassword, mEdtUserName, mEdtPassword, mEdtFullName, mEdtDob, mEdtPhoneNumber, mEdtAddress;
-//    private View viewDialog;
+    //    private View viewDialog;
     private final String AUTH_PREFERENCE = "auth_preference";
     private SharedPreferences mPreferences;
     private SharedPreferences.Editor mEditor;
@@ -92,13 +98,17 @@ public class LoginActivity extends Activity implements View.OnClickListener, Ada
         mCursor = mHelper.getCursor();
         mCursorAdapter = new CursorAdapter(this, mCursor) {
             @Override
-            public View newView(Context context, Cursor cursor, ViewGroup parent) {
+            public View newView(Context context,
+                                Cursor cursor,
+                                ViewGroup parent) {
                 return LayoutInflater.from(context).inflate(R.layout.item_user, parent, false);
             }
 
             @SuppressLint("Range")
             @Override
-            public void bindView(View view, Context context, Cursor cursor) {
+            public void bindView(View view,
+                                 Context context,
+                                 Cursor cursor) {
                 TextView fullName = view.findViewById(R.id.tvFullName);
                 TextView userName = view.findViewById(R.id.tvUserName);
                 String strUserName = cursor.getString(cursor.getColumnIndex(Contracts.COLUMN_USERNAME));
@@ -112,10 +122,13 @@ public class LoginActivity extends Activity implements View.OnClickListener, Ada
         mLvUser.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @SuppressLint("Range")
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                mHelper.delete(mCursor.getInt(mCursor.getColumnIndex(Contracts.COLUMN_ID)));
-                mCursor.requery();
-                mCursorAdapter.notifyDataSetChanged();
+            public void onItemClick(AdapterView<?> parent,
+                                    View view,
+                                    int position,
+                                    long id) {
+//                mHelper.delete(mCursor.getInt(mCursor.getColumnIndex(Contracts.COLUMN_ID)));
+//                mCursor.requery();
+//                mCursorAdapter.notifyDataSetChanged();
             }
         });
 
@@ -126,12 +139,16 @@ public class LoginActivity extends Activity implements View.OnClickListener, Ada
 //        mSpinnerOption = mPreferences.getInt("position", 0);
         mSpinner.setAdapter(sortAdapter);
         mSpinner.setSelection(mSpinnerOption);
+
+        registerForContextMenu(mLvUser);
         Log.i(TAG, "onCreate");
     }
 
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    protected void onActivityResult(int requestCode,
+                                    int resultCode,
+                                    Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == LOGIN_REQUEST && resultCode == RESULT_OK) {
 //            txtConfirm.setText(data.getStringExtra("confirm"));
@@ -205,13 +222,15 @@ public class LoginActivity extends Activity implements View.OnClickListener, Ada
                 mBuilder.setView(viewDialog);
                 mBuilder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
+                    public void onClick(DialogInterface dialogInterface,
+                                        int i) {
                     }
                 });
 
                 mBuilder.setPositiveButton("Save", new DialogInterface.OnClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
+                    public void onClick(DialogInterface dialogInterface,
+                                        int i) {
                         // Save user info
                         User user = new User();
                         user.setUserName(mEdtUserName.getText().toString());
@@ -242,7 +261,10 @@ public class LoginActivity extends Activity implements View.OnClickListener, Ada
     }
 
     @Override
-    public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+    public void onItemSelected(AdapterView<?> adapterView,
+                               View view,
+                               int position,
+                               long l) {
         switch (position) {
             case 1:
                 Collections.sort(mListUser, (a, b) -> b.getFullName().compareTo(a.getFullName()));
@@ -258,5 +280,134 @@ public class LoginActivity extends Activity implements View.OnClickListener, Ada
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.option_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.item_about:
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setTitle("About");
+                builder.setMessage("Đây là ứng dụng quản lý người dùng. Mọi chi tiết vui lòng liên" +
+                        " hệ: 8888.9999");
+                AlertDialog dialog = builder.create();
+                dialog.show();
+                break;
+            case R.id.item_exit:
+                AlertDialog.Builder builderExit = new AlertDialog.Builder(this);
+                builderExit.setTitle("Confirm exit");
+                builderExit.setMessage("Bạn có chắc chắn muốn đóng ứng dụng này?");
+                builderExit.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog,
+                                        int which) {
+                        finish();
+                    }
+                });
+                builderExit.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog,
+                                        int which) {
+                    }
+                });
+                AlertDialog alertDialog = builderExit.create();
+                alertDialog.show();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onCreateContextMenu(ContextMenu menu,
+                                    View v,
+                                    ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+        getMenuInflater().inflate(R.menu.context_menu, menu);
+    }
+
+    @SuppressLint("Range")
+    @Override
+    public boolean onContextItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.item_detail:
+                String username = mCursor.getString(mCursor.getColumnIndex(Contracts.COLUMN_USERNAME));
+                String password = mCursor.getString(mCursor.getColumnIndex(Contracts.COLUMN_PASSWORD));
+                String fullName =
+                        mCursor.getString(mCursor.getColumnIndex(Contracts.COLUMN_FULL_NAME));
+                String dob = mCursor.getString(mCursor.getColumnIndex(Contracts.COLUMN_BIRTHDAY));
+                String phoneNum =
+                        mCursor.getString(mCursor.getColumnIndex(Contracts.COLUMN_PHONE));
+                String address =
+                        mCursor.getString(mCursor.getColumnIndex(Contracts.COLUMN_ADDRESS));
+
+
+                View viewDialog = this.getLayoutInflater().inflate(R.layout.sign_up_dialog, null);
+                mEdtUserName = (EditText) viewDialog.findViewById(R.id.registerUserName);
+                mEdtUserName.setText(username);
+                mEdtUserName.setEnabled(false);
+                mEdtPassword = (EditText) viewDialog.findViewById(R.id.registerPassword);
+                mEdtPassword.setText(password);
+                mEdtPassword.setEnabled(false);
+                mEdtFullName = (EditText) viewDialog.findViewById(R.id.registerFullName);
+                mEdtFullName.setText(fullName);
+                mEdtFullName.setEnabled(false);
+                mEdtDob = (EditText) viewDialog.findViewById(R.id.registerDob);
+                mEdtDob.setText(dob);
+                mEdtDob.setEnabled(false);
+                mEdtPhoneNumber = (EditText) viewDialog.findViewById(R.id.registerPhone);
+                mEdtPhoneNumber.setText(phoneNum);
+                mEdtPhoneNumber.setEnabled(false);
+                mEdtAddress = (EditText) viewDialog.findViewById(R.id.registerAddress);
+                mEdtAddress.setText(address);
+                mEdtAddress.setEnabled(false);
+                // Using Dialog
+                mBuilder.setTitle(fullName);
+                mBuilder.setView(viewDialog);
+
+                AlertDialog dialog = mBuilder.create();
+                dialog.show();
+                break;
+            case R.id.item_delete:
+                mHelper.delete(mCursor.getInt(mCursor.getColumnIndex(Contracts.COLUMN_ID)));
+                mCursor.requery();
+                mCursorAdapter.notifyDataSetChanged();
+                break;
+
+        }
+        return super.onContextItemSelected(item);
+    }
+
+    public void showPopupMessage(String message) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Password");
+        builder.setMessage(message);
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+    public void openPopupMenu(View v) {
+        PopupMenu popupMenu = new PopupMenu(this, v);
+        getMenuInflater().inflate(R.menu.popup_menu, popupMenu.getMenu());
+        popupMenu.show();
+        popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.item_find:
+                        showPopupMessage("Có không giữ mất đưng tìm");
+                        break;
+                    case R.id.item_reset:
+                        showPopupMessage("Password của bạn đã đổi thành *******");
+                        break;
+                }
+                return false;
+            }
+        });
     }
 }

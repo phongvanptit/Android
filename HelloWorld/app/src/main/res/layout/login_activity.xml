@@ -43,6 +43,8 @@
                 android:id="@+id/txt_forgetS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="openPopupMenu"
                 android:text="Forget password?" />
 
             <TextView

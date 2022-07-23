@@ -5,68 +5,85 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
-8-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="31" />
-9-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="19"
+8-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="19" />
+9-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:5:5-20:19
+11-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:5:5-27:19
 12        android:allowBackup="true"
-12-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:6:9-35
+12-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.7.0] C:\Users\phongvan\.gradle\caches\transforms-3\376792b261fdcbfd86757f02ea12377d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:7:9-43
+15-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:8:9-43
 16        android:label="@string/app_name"
-16-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.AnimationSample" >
-20-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:11:9-53
-21        <activity
-21-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:12:9-19:20
-22            android:name="phongvh.approtrain.animationsample.MainActivity"
-22-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:13:13-41
-23            android:exported="true" >
-23-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:14:13-36
-24            <intent-filter>
-24-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:15:13-18:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:16:17-69
-25-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:16:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:17:17-77
-27-->D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:17:27-74
-28            </intent-filter>
-29        </activity>
-30
-31        <provider
-31-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-32            android:name="androidx.startup.InitializationProvider"
-32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-33            android:authorities="phongvh.approtrain.animationsample.androidx-startup"
-33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-34            android:exported="false" >
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-35            <meta-data
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-36                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-37                android:value="androidx.startup" />
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-38            <meta-data
-38-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phongvan\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-39                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phongvan\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-40                android:value="androidx.startup" />
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phongvan\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-41        </provider>
-42    </application>
-43
-44</manifest>
+16-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:9:9-41
+17        android:largeHeap="true"
+17-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:7:9-33
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:10:9-54
+19        android:supportsRtl="true"
+19-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:11:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.AnimationSample" >
+21-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:12:9-53
+22        <activity
+22-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:13:9-20:20
+23            android:name="phongvh.approtrain.animationsample.MainActivity"
+23-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:14:13-41
+24            android:exported="true" >
+24-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:15:13-36
+25            <intent-filter>
+25-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:16:13-19:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:17:17-69
+26-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:18:17-77
+28-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:18:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <service android:name="phongvh.approtrain.animationsample.PlayService" />
+32-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:21:9-48
+32-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:21:18-45
+33
+34        <receiver android:name="phongvh.approtrain.animationsample.CommonReceiver" >
+34-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:22:9-26:20
+34-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:22:19-49
+35            <intent-filter>
+35-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:23:13-25:29
+36                <action android:name="PLAY_MEDIA_PLAYER" />
+36-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:24:17-60
+36-->D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:24:25-57
+37            </intent-filter>
+38        </receiver>
+39
+40        <provider
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+42            android:authorities="phongvh.approtrain.animationsample.androidx-startup"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+43            android:exported="false" >
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+44            <meta-data
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+46                android:value="androidx.startup" />
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+47            <meta-data
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phongvan\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phongvan\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+49                android:value="androidx.startup" />
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phongvan\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+50        </provider>
+51    </application>
+52
+53</manifest>

@@ -1,86 +1,202 @@
 [
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_10.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_10.png"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_9.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_9.png"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_17.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_17.png"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_2.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_2.png"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\anim_translate.xml.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\anim\\translate.xml"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\anim_translate.xml.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\anim\\translate.xml"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_13.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_13.png"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_6.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_6.png"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\animator_rotation.xml.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\animator\\rotation.xml"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_21.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_21.png"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\layout_main_activity.xml.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\layout\\main_activity.xml"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\anim_rotation.xml.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\anim\\rotation.xml"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_dog.jpg.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\drawable\\dog.jpg"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_18.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_18.png"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\layout_main_activity.xml.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\layout\\main_activity.xml"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_1.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_1.png"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\animator_rotation.xml.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\animator\\rotation.xml"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\raw_meo_keu.mp3.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\raw\\meo_keu.mp3"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\raw_meo_keu.mp3.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\raw\\meo_keu.mp3"
     },
     {
-        "merged": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\raw_be_vui_don_tet.mp3.flat",
-        "source": "D:\\WorkspaceAptech\\AnimationSample\\app\\src\\main\\res\\raw\\be_vui_don_tet.mp3"
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_8.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_8.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_11.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_11.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_14.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_14.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_5.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_5.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\raw_be_vui_don_tet.mp3.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\raw\\be_vui_don_tet.mp3"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_20.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_20.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\raw_a_thousand_years.mp3.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\raw\\a_thousand_years.mp3"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_drawable_anim.xml.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\drawable_anim.xml"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_7.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_7.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_15.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_15.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_4.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_4.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\anim_rotation.xml.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\anim\\rotation.xml"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_dog.jpg.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\dog.jpg"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_3.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_3.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_16.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_16.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_12.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_12.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable_cat_19.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\src\\main\\res\\drawable\\cat_19.png"
+    },
+    {
+        "merged": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     }
 ]

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "outputFile": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
             "map": [
                 {
                     "source": "C:\\Users\\phongvan\\.gradle\\caches\\transforms-3\\cab5710e0a10a90df00b900883b89ff4\\transformed\\material-1.6.1\\res\\values-ta\\values-ta.xml",

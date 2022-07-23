@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\phongvan\.gradle\caches\transforms-3\cab5710e0a10a90df00b900883b89ff4\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\phongvan\.gradle\caches\transforms-3\48818f786f3f1b462af7078923c11b01\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\phongvan\.gradle\caches\transforms-3\8ede57f4fbb52778d21f0a57bb4baf97\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
@@ -43,25 +43,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\phongvan\.gradle
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8ca7186ef83368b8549809152ed428ce\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\485578c608519582fc751ff2f7c88476\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\phongvan\.gradle\caches\transforms-3\437e772228a813b0fd4bde3f8ec9dd31\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:3:5-49
-		INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
-		INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:2:1-22:12
-		INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:2:1-29:12
+		INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:2:1-22:12
-		INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:2:1-29:12
+		INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:5:5-20:19
+ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\phongvan\.gradle\caches\transforms-3\cab5710e0a10a90df00b900883b89ff4\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\phongvan\.gradle\caches\transforms-3\cab5710e0a10a90df00b900883b89ff4\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\phongvan\.gradle\caches\transforms-3\48818f786f3f1b462af7078923c11b01\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
@@ -79,37 +79,53 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\phongvan\.gradle\c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\phongvan\.gradle\caches\transforms-3\376792b261fdcbfd86757f02ea12377d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:10:9-54
+	android:largeHeap
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:7:9-33
 	android:icon
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:11:9-53
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:12:9-53
 activity#phongvh.approtrain.animationsample.MainActivity
-ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:12:9-19:20
+ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:13:9-20:20
 	android:exported
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:14:13-36
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:15:13-36
 	android:name
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:14:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:15:13-18:29
+ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:16:13-19:29
 action#android.intent.action.MAIN
-ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:18:27-74
+service#phongvh.approtrain.animationsample.PlayService
+ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:21:9-48
+	android:name
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:21:18-45
+receiver#phongvh.approtrain.animationsample.CommonReceiver
+ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:22:9-26:20
+	android:name
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:22:19-49
+intent-filter#action:name:PLAY_MEDIA_PLAYER
+ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:23:13-25:29
+action#PLAY_MEDIA_PLAYER
+ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:24:17-60
+	android:name
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml:24:25-57
 uses-sdk
-INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
-INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
+INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
+INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\phongvan\.gradle\caches\transforms-3\cab5710e0a10a90df00b900883b89ff4\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\phongvan\.gradle\caches\transforms-3\cab5710e0a10a90df00b900883b89ff4\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\phongvan\.gradle\caches\transforms-3\48818f786f3f1b462af7078923c11b01\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
@@ -188,16 +204,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\phongvan\.gradle\caches\transf
 MERGED from [androidx.print:print:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\485578c608519582fc751ff2f7c88476\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\phongvan\.gradle\caches\transforms-3\437e772228a813b0fd4bde3f8ec9dd31\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\phongvan\.gradle\caches\transforms-3\437e772228a813b0fd4bde3f8ec9dd31\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
-INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
+INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
+INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
-		INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
-		ADDED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
-		INJECTED from D:\WorkspaceAptech\AnimationSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
+		ADDED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkspaceAptech\Android\AnimationSample\app\src\main\AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\phongvan\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phongvan\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20

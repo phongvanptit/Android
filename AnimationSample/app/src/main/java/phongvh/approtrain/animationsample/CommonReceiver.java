@@ -8,7 +8,7 @@ import android.content.ServiceConnection;
 import android.os.IBinder;
 import android.util.Log;
 
-public class AirPlaneReceiver extends BroadcastReceiver {
+public class CommonReceiver extends BroadcastReceiver {
     ServiceConnection serviceConnection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName name,
@@ -27,6 +27,6 @@ public class AirPlaneReceiver extends BroadcastReceiver {
                           Intent intent) {
         Intent i = new Intent(context, PlayService.class);
         context.startService(i);
-        Log.i("AirPlaneReceiver", "onReceive");
+        Log.i("CommonReceiver", "onReceive");
     }
 }

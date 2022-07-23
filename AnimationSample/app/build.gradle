@@ -7,8 +7,8 @@ android {
 
     defaultConfig {
         applicationId "phongvh.approtrain.animationsample"
-        minSdk 21
-        targetSdk 31
+        minSdk 19
+        targetSdk 19
         versionCode 1
         versionName "1.0"
 

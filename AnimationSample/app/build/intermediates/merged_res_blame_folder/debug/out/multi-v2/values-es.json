@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\WorkspaceAptech\\AnimationSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
+            "outputFile": "D:\\WorkspaceAptech\\Android\\AnimationSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
             "map": [
                 {
                     "source": "C:\\Users\\phongvan\\.gradle\\caches\\transforms-3\\376792b261fdcbfd86757f02ea12377d\\transformed\\core-1.7.0\\res\\values-es\\values-es.xml",
